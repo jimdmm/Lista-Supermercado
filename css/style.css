@@ -16,6 +16,7 @@ html{
     display: flex;
     align-items: center;
     gap: 2em;
+    justify-content: center;
 }
 
 .principal {
@@ -60,6 +61,7 @@ html{
     margin: 0;
     padding: 0;
     overflow-y: auto;
+    overflow-x: hidden;
     height: 400px;    
 }
 
@@ -81,10 +83,10 @@ html{
     margin: 0 0 1em;
     width: 600px;
     box-sizing: border-box;
-    display: inline-flex;
     align-items: center;
     gap: 1em;
     font-size: 20px;
+    display: flex;
 }
 
 .item strong {
