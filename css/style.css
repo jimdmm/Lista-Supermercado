@@ -87,6 +87,20 @@ html{
     gap: 1em;
     font-size: 20px;
     display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #b0480b;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button img{
+    width: 20px;
 }
 
 .item strong {
